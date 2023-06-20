@@ -1,0 +1,34 @@
+@import 'base/reset';
+@import 'base/typography';
+
+@import 'layout/grid';
+@import 'layout/header';
+@import 'layout/footer';
+
+@import 'modules/button';
+@import 'modules/carousel';
+@import 'modules/form';
+
+@import 'states/hover';
+@import 'states/active';
+@import 'states/disabled';
+
+@import 'themes/theme-light';
+@import 'themes/theme-dark';
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#FirstBlock{
+    background-image: url("../images/background_first_block.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+h1{
+    color: pink;
+}
