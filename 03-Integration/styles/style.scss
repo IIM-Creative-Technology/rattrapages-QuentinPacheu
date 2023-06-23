@@ -29,6 +29,45 @@
     width: 100vw;
     height: 100vh;
 }
-h1{
-    color: pink;
+#SecondBlock {
+    background-image: url("../images/background_second_block2.jpg"), url("../images/background_second_block.jpg") ;
+    background-repeat: no-repeat, repeat;
+    background-size: 50%, 20%;
+    background-position: right, top left;
+    width: 100vw;
+    height: 100vh;
+}
+#ThirdBlock{
+    background-image: url("../images/background_third_block.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+}
+#FourthBlock{
+    background-image: url("../images/pattern.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 150vh;
+}
+#FifthBlock{
+    background-image: url("../images/background_fifth_block.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 90vh;
+}
+#SixthBlock {
+    background-image: url("../images/background_second_block.jpg");
+    background-repeat: repeat;
+    background-size: 20%;
+    background-position: top left;
+    width: 100vw;
+    height: 100vh;
+}
+#FirstDivSixthBlock{
+    background-image: url("../images/background_sixth_block.jpg");
 }
