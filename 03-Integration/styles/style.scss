@@ -28,6 +28,21 @@
     background-size: cover;
     width: 100vw;
     height: 100vh;
+
+    #slogan{
+        display: flex;
+        flex-direction: column;
+        margin-top: 10%;
+        align-content: center;
+        flex-wrap: wrap;
+
+        h2{
+            font-size: 54px;
+            color: #FFFFFF;
+            transform: rotate(-9deg);
+            margin-left: 2%;
+        }
+    }
 }
 #SecondBlock {
     background-image: url("../images/background_second_block2.jpg"), url("../images/background_second_block.jpg") ;
@@ -36,6 +51,24 @@
     background-position: right, top left;
     width: 100vw;
     height: 100vh;
+
+    h2{
+        color: #B2D234;
+    }
+    #text{
+        margin-left: 10%;
+        padding-top: 10%;
+
+        #description{
+            margin-top: 4%;
+            margin-bottom: 4%;
+            width: 25vw;
+
+            p{
+                padding-bottom: 3%;
+            }
+        }
+    }
 }
 #ThirdBlock{
     background-image: url("../images/background_third_block.jpg");
@@ -44,6 +77,52 @@
     background-repeat: no-repeat;
     width: 100vw;
     height: 100vh;
+
+    #BlockText{
+        padding-top: 8%;
+        width: 40vw;
+        margin-left: 45vw;
+        text-align: center;
+
+        #text{
+        background-color: #B2D234;
+        opacity: 0.85;
+        padding: 5% 7% 6% 7%;
+        
+        #description{
+            padding-top: 5%;
+            padding-bottom: 5%;
+
+            #debut{
+                padding-bottom: 3%;
+                display: flex;
+                justify-content: center;
+
+                p{
+                    width: 25vw;
+                }
+            }
+            #middle{
+                display: flex;
+                justify-content: center;
+
+                p{
+                    width: 23vw;
+                }
+            }
+            #fin{
+                padding-top: 3%;
+            }
+        }
+        h2{
+            color: #FFFFFF;
+        }
+        p{
+            color: #FFFFFF;
+        }
+        }
+    }
+    
 }
 #FourthBlock{
     background-image: url("../images/pattern.png");
@@ -52,6 +131,75 @@
     background-repeat: no-repeat;
     width: 100vw;
     height: 150vh;
+
+    #FirstBox{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 40vw;
+        margin-left: 30vw;
+        padding-top: 12vh;
+
+        h2{
+            color: #B2D234;
+        }
+        p{
+            padding-top: 3vh;
+        }
+        #FirstP{
+            padding-top: 5vh;
+        }
+
+    }
+    #SecondAndThirdBox{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        #SecondBox{
+            display: flex;
+            flex-direction: column;
+            padding-top: 11vh;
+
+            .TousArticles{
+                padding-bottom: 8vh;
+            }
+            .TitlePrice{
+                display: flex;
+                justify-content: space-between;
+            }
+            h3{
+                color: #B2D234;
+            }
+            .price{
+                color: #B2D234;
+            }
+        }
+        #ThirdBox{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 40vw;
+
+            h2{
+                transform: rotate(-9deg);
+            }
+            #vert{
+                color: #B2D234;
+            }
+            #bleu{
+                color: #60A0D8;
+            }
+            #text{
+                padding-top: 12vh;
+                padding-bottom: 12vh;
+                p{
+                    width: 22vw;
+                }
+            }
+        }
+    }
 }
 #FifthBlock{
     background-image: url("../images/background_fifth_block.jpg");
@@ -59,6 +207,42 @@
     background-size: cover;
     width: 100vw;
     height: 90vh;
+
+    h2{
+        padding-top: 5vh;
+        padding-bottom: 5vh;
+    }
+    #BoxVerteAndBleu{
+        display: flex;
+        justify-content: center;
+        padding-top: 22vh;
+        color: #FFFFFF;
+    }
+    #BoxVerte{
+        background-color: #B2D234;
+        opacity: 0.85;
+        width: 45vw;
+        height: 52vh;
+        margin-right: 1vw;
+        text-align: center;
+
+        #text{
+            display: flex;
+            justify-content: space-evenly;
+        }
+    }
+    #BoxBleu{
+        background-color: #60A0D8;
+        opacity: 0.85;
+        width: 45vw;
+        margin-left: 1vw;
+        text-align: center;
+
+        #text{
+            display: flex;
+            justify-content: space-evenly;
+        }
+    }
 }
 #SixthBlock {
     background-image: url("../images/background_second_block.jpg");
@@ -70,4 +254,15 @@
 }
 #FirstDivSixthBlock{
     background-image: url("../images/background_sixth_block.jpg");
+}
+
+h1{
+    font-size: 126px;
+    color: #FFFFFF;
+}
+h2{
+    font-size: 52px;
+}
+p{
+    font-size: 18px;
 }
