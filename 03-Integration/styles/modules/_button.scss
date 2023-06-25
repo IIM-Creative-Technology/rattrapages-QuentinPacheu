@@ -7,6 +7,13 @@
     padding-bottom: 1vh;
     border: #FFFFFF solid;
     border-radius: 7px;
+    @media (min-width: 768px) and (max-width: 1023px){
+        padding-left: 1vw;
+        padding-right: 1vw;
+    }
+    @media (min-width: 425px) and (max-width: 596px){
+        padding: 0 0 0 0;
+}
 }
 .Bvert{
     background-color: #B2D234;
@@ -17,4 +24,7 @@
     padding-bottom: 2vh;
     border: #B2D234 solid;
     border-radius: 7px;
+    @media (min-width: 425px) and (max-width: 596px){
+        padding: 0 0 0 0;
+        }
 }

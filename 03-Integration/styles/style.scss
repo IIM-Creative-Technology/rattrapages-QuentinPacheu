@@ -37,6 +37,10 @@
             color: #FFFFFF;
             transform: rotate(-9deg);
             margin-left: 2%;
+            @media(min-width: 425px) and (max-width: 596px){
+                text-align: center;
+                font-size: 40px;
+            }
         }
     }
 }
@@ -48,6 +52,24 @@
     background-position: 110%, right, top left;
     width: 100vw;
     height: 100vh;
+    @media (min-width: 768px) and (max-width: 1023px){
+        background-image: linear-gradient(to right, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url("../images/background_second_block.jpg");
+        background-repeat: no-repeat, repeat;
+        background-size: 100%, 20%;
+        object-fit: cover;
+        background-position: right, top left;
+        width: 100vw;
+        height: 100vh;
+    }
+    @media (min-width: 425px) and (max-width: 596px){
+        background-image: linear-gradient(to right, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url("../images/background_second_block.jpg");
+        background-repeat: no-repeat, repeat;
+        background-size: 100%, 20%;
+        object-fit: cover;
+        background-position: right, top left;
+        width: 100vw;
+        height: 100vh;
+    }
 
     h2{
         color: #B2D234;
@@ -60,6 +82,13 @@
             margin-top: 4%;
             margin-bottom: 4%;
             width: 25vw;
+            @media (min-width: 768px) and (max-width: 1023px){
+                width: 100%;
+            }
+            @media (min-width: 425px) and (max-width: 596px){
+                width: 100%;
+                padding-right: 2%;
+            }
 
             p{
                 padding-bottom: 3%;
@@ -81,6 +110,14 @@
         margin-left: 45vw;
         text-align: center;
 
+        @media (min-width: 768px) and (max-width: 1023px){
+            width: 50vw;
+        }
+        @media (min-width: 425px) and (max-width: 596px){
+            width: 70vw;
+            margin-left: 25vw;
+        }
+
         #text{
         background-color: rgba($color: #B2D234, $alpha: 0.85);
         padding: 5% 7% 6% 7%;
@@ -96,6 +133,9 @@
 
                 p{
                     width: 25vw;
+                    @media (min-width: 425px) and (max-width: 1023px){
+                        width: 100%;
+                    }
                 }
             }
             #middle{
@@ -104,6 +144,9 @@
 
                 p{
                     width: 23vw;
+                    @media (min-width: 425px) and (max-width: 1023px){
+                        width: 100%;
+                    }
                 }
             }
             #fin{
@@ -136,6 +179,10 @@
         width: 40vw;
         margin-left: 30vw;
         padding-top: 12vh;
+        @media (min-width: 425px) and (max-width: 1023px){
+            margin-left: 0;
+            width: 100%;
+        }
 
         h2{
             color: #B2D234;
@@ -152,12 +199,22 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        @media (min-width: 425px) and (max-width: 596px){
+            display: flex;
+            justify-content: space-around;
+        }
 
         #SecondBox{
             display: flex;
             flex-direction: column;
             padding-top: 11vh;
             gap: 7vh;
+            @media (min-width: 425px) and (max-width: 596px){
+                display: flex;
+                gap: 3vh;
+                width: 50vw;
+            }
+    
 
             #encadre{
                 border: 1px solid #B2D234;
@@ -177,6 +234,13 @@
             }
             .TousArticles{
                 padding: 1vh;
+
+                p{
+                    @media (min-width: 425px) and (max-width: 596px){
+                        font-size: 10px;
+                    }
+            
+                }
             }
             .TitlePrice{
                 display: flex;
@@ -197,6 +261,10 @@
 
             h2{
                 transform: rotate(-9deg);
+                @media (min-width: 425px) and (max-width: 596px){
+                    font-size: 25px;
+                }
+        
             }
             #vert{
                 color: #B2D234;
@@ -209,6 +277,11 @@
                 padding-bottom: 12vh;
                 p{
                     width: 22vw;
+                    @media (min-width: 425px) and (max-width: 596px){
+                        width: 100%;
+                        font-size: 12px;
+                    }
+            
                 }
             }
         }
@@ -224,6 +297,9 @@
     h2{
         padding-top: 5vh;
         padding-bottom: 5vh;
+        @media (min-width: 425px) and (max-width: 596px){
+            font-size: 25px;
+        }
     }
     #BoxVerteAndBleu{
         display: flex;
@@ -237,10 +313,19 @@
         height: 60vh;
         margin-right: 1vw;
         text-align: center;
+        @media (min-width: 425px) and (max-width: 596px){
+            height: auto;
+        }
 
         #text{
             display: flex;
             justify-content: space-evenly;
+
+            p{
+                @media (min-width: 425px) and (max-width: 596px){
+                    font-size: 15px;
+                }
+            }
         }
     }
     #BoxBleu{
@@ -252,6 +337,12 @@
         #text{
             display: flex;
             justify-content: space-evenly;
+
+            p{
+                @media (min-width: 425px) and (max-width: 596px){
+                    font-size: 15px;
+                }
+            }
         }
     }
 }
@@ -267,6 +358,9 @@
         width: 100vw;
         display: flex;
         align-items: center;
+        @media (min-width: 425px) and (max-width: 596px){
+            justify-content: center;
+            }
         
         #FirstBox{
             background-image: url("../images/background_sixth_block.jpg");
@@ -276,6 +370,11 @@
             width: 40vw;
             height: 100vh;
             margin: 6%;
+            @media (min-width: 425px) and (max-width: 596px){
+            background-image: none;
+            width: 0;
+            margin: 0;
+            }
 
         }
         #SecondBox{
@@ -298,10 +397,23 @@
 h1{
     font-size: 126px;
     color: #FFFFFF;
+
+    @media(min-width: 425px) and (max-width: 596px){
+        font-size: 80px;
+        text-align: center;
+    }
 }
 h2{
     font-size: 52px;
+    @media (min-width: 768px) and (max-width: 1023px){
+        font-size: 30px;;
+    }
+    @media (min-width: 425px) and (max-width: 596px){
+        font-size: 25px;;
+    }
 }
 p{
     font-size: 18px;
 }
+
+
