@@ -1,7 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,500;0,600;1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;1,300&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+#menu a {
+  font-family: "Poppins", light;
+}
+
+.Bblanc {
+  font-family: "Poppins", semibold;
+}
+
+.Bvert {
+  font-family: "Poppins", semibold;
+}
+
+#slogan h1 {
+  font-family: "Poppins", medium;
+}
+#slogan h2 {
+  font-family: "Poppins", italic;
+}
+
+h2 {
+  font-family: "Poppins", semibold;
+}
+
+p {
+  font-family: "Poppins", regular;
+}
+
+.TousArticles h3 {
+  font-family: "Poppins", medium;
+}
+.TousArticles .price p {
+  font-family: "Poppins", medium;
+}
+
+#ThirdBox h2 {
+  font-family: "Poppins", italic;
+}
+
+label {
+  font-family: italic;
+}
+
+.section h3 {
+  font-family: "Poppins", semibold;
+}
+.section a {
+  font-family: "Poppins", regular;
 }
 
 header {
@@ -169,7 +223,7 @@ form #Bpostuler {
   background-size: cover;
   background-repeat: no-repeat;
   width: 100vw;
-  height: 100vh;
+  height: 120vh;
 }
 #ThirdBlock #BlockText {
   padding-top: 8%;
@@ -216,7 +270,7 @@ form #Bpostuler {
   background-size: cover;
   background-repeat: no-repeat;
   width: 100vw;
-  height: 150vh;
+  height: 170vh;
 }
 #FourthBlock #FirstBox {
   display: flex;
@@ -304,7 +358,7 @@ form #Bpostuler {
   background-position: center;
   background-size: cover;
   width: 100vw;
-  height: 90vh;
+  height: 100vh;
 }
 #FifthBlock h2 {
   padding-top: 5vh;
@@ -319,7 +373,7 @@ form #Bpostuler {
 #FifthBlock #BoxVerte {
   background-color: rgba(178, 210, 52, 0.85);
   width: 45vw;
-  height: 52vh;
+  height: 60vh;
   margin-right: 1vw;
   text-align: center;
 }
