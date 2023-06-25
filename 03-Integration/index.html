@@ -78,7 +78,7 @@
                     <p>1 base · 3 ingrédients verts & 1 bleu · Sauce</p>
                     <p>Petit plus et pain offert</p>
                 </div>
-                <div class="TousArticles">
+                <div id="encadre" class="TousArticles">
                     <div class="TitlePrice">
                         <h3>Salade 2-2</h3>
                         <p class="price">9,90€</p>
@@ -177,37 +177,71 @@
         </div>
     </div>
     <div id="SixthBlock">
-        <div>
-            <div id="FirstDivSixthBlock">
-                <div></div>
-                <div></div>
+        <div id="FirstAndSecondBox">
+            <div id="FirstBox">
+                <div id="LigneBox">
+                </div>
             </div>
-        </div>
-        <div>
-            <div>
+            <div id="SecondBox">
                 <h2>Envie de partager ?</h2>
-                <p>Toute l'année, on recrute des employés motivés pour</p>
-                <p>tous nos restaurants !</p>
-                <p>N'hésitez pas à postuler !</p>
+                <div id="TextAndFormulaire"></div>
+                    <p>Toute l'année, on recrute des employés motivés pour</p>
+                    <p>tous nos restaurants !</p>
+                    <p>N'hésitez pas à postuler !</p>
+                    <form>
+                        <div id="NomPrenom">
+                            <div class="FormSection">
+                                <label for="nom">Nom</label>
+                                <input type="text" id="nom" name="nom">
+                            </div>
+                            <div class="FormSection">
+                                <label for="nom">Prénom</label>
+                                <input type="text" id="prenom" name="prenom">
+                            </div>
+                        </div>
+                        <div class="FormSection">
+                            <label for="email">Email</label>
+                            <input type="text" id="email" name="email">
+                        </div>
+                        <div class="FormSection">
+                            <label for="message">Votre motivation en quelque mots</label>
+                            <textarea id="message" name="message" rows="4"></textarea>
+                        </div>
+                        <div id="Bpostuler">
+                            <input class="Bvert" type="submit" value="Postuler">
+                        </div>
+                    </form>
+                </div>
             </div>
-            <div class="formulaire">
-                <div></div>
-            </div>
-            <button class="Bvert">Postuler</button>
         </div>
     </div>
     <footer>
-        <div>
-        <img src="images/mangoo.png" alt="">
-        <div>
-            <h3>Commander</h3>
-        </div>
-        <div>
-            <h3>Informations</h3>
-        </div>
-        <div>
-            <h3>Nous retrouver</h3>
-        </div>
+        <img class="logo" src="images/mangoo.png" alt="">
+        <div class="menu">
+            <div class="section">
+                <h3>Commander</h3>
+                <ul>
+                    <a href="">Passer commande</a>
+                    <a href="">Nos menus</a>
+                    <a href="">Restaurants</a>
+                </ul>
+            </div>
+            <div class="section">
+                <h3>Informations</h3>
+                <ul>
+                    <a href="">F.A.Q</a>
+                    <a href="">Mentions légales</a>
+                    <a href="">Recrutement</a>
+                </ul>
+            </div>
+            <div class="section">
+                <h3>Nous retrouver</h3>
+                <ul>
+                    <a href="">Facebook</a>
+                    <a href="">Twitter</a>
+                    <a href="">Instagram</a>
+                </ul>
+            </div>
         </div>
     </footer>
 </body>

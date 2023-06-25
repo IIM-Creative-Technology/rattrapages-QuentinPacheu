@@ -1,0 +1,41 @@
+footer{
+    background-color: #B2D234;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    width: 100vw;
+    height: 37vh;
+
+    h3{
+        font-size: 27px;
+        color: #FFFFFF;
+        padding-bottom: 5vh;
+    }
+    a{
+        text-decoration: none;
+        color: #FFFFFF;
+        font-size: 18px;
+        padding-bottom: 2vh;
+    }
+    .logo{
+        width: 22vw;
+        margin-left: 4vw;
+    }
+    .menu{
+        display: flex;
+        padding-right: 7vw;
+        width: 65vw;
+        justify-content: space-between;
+
+        .section{
+            display: flex;
+            flex-direction: column;
+
+            ul{
+                display: flex;
+                flex-direction: column;
+            }
+        }
+    }
+}

@@ -1,0 +1,33 @@
+form{
+    padding-top: 5%;
+    color: #B2D234;
+
+
+    .FormSection{
+        display: flex;
+        flex-direction: column;
+        padding: 2%;
+
+        input{
+            padding: 2%;
+        }
+    }
+    #NomPrenom{
+        display: flex;
+        justify-content: center;
+        
+        .FormSection{
+            width: 100%;
+        }
+    }
+    #email{
+        padding: 1%;
+    }
+    #message{
+        padding: 4%;
+    }
+    #Bpostuler{
+        display: flex;
+        justify-content: center;
+    }
+}
